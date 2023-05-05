@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donteatsugar", "donteatsugar\donteatsugar.csproj", "{0D661098-84F3-4D8D-8CC1-F1C93BA7CEE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donteatsugar.test", "donteatsugar.test\donteatsugar.test.csproj", "{23B7002B-C7C1-4A67-BCDE-179221EA9A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0D661098-84F3-4D8D-8CC1-F1C93BA7CEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D661098-84F3-4D8D-8CC1-F1C93BA7CEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D661098-84F3-4D8D-8CC1-F1C93BA7CEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B7002B-C7C1-4A67-BCDE-179221EA9A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B7002B-C7C1-4A67-BCDE-179221EA9A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B7002B-C7C1-4A67-BCDE-179221EA9A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B7002B-C7C1-4A67-BCDE-179221EA9A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
