@@ -30,7 +30,7 @@ namespace donteatsugar
         }
 
         //只读
-        public string Name4 { get; } = nameof(Name3);
+        public byte Name4 { get; } = 0xF4;
 
         //可访问性 
         public string Name5
