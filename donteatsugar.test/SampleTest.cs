@@ -49,7 +49,7 @@ public class SampleTest
         Assert.Equal("12", mc.Config((a, b) => { return a + b; }));
     }
 
-    [Fact(Skip = "仅仅演示")]
+    [Fact]
     public void AnonClass_Test()
     {
         //匿名类型:只能使用一次,仅能在当前的项目中使用
@@ -63,6 +63,11 @@ public class SampleTest
         };
 
         _testOutputHelper.WriteLine(aEmployee.aPeople.pName);//输出：张三
+        var numbers = new Dictionary<int, string> { [7] = "seven", [9] = "nine", [13] = "thirteen" };
+        numbers[8] = "eight";
+        aEmployee = null;
+        var b = aEmployee?.Salary;
+
         Assert.True(aEmployee.aPeople.pName =="张三");
     }
 
